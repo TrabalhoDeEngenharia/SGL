@@ -1,0 +1,66 @@
+<html>
+<head> 
+<meta charset="utf-8">
+<title> Reservas </title>
+<link rel="stylesheet" type="text/css" href="estilo.css"/>	
+<link href="./index_files/style.css" rel="stylesheet" type="text/css">
+</head>
+<body  bgcolor="#191970" bgproperties="fixed" >
+<div class="container"   width="700"  align="center">
+	<header>
+	<div id="logo"><a href="./index.html#"><img src="./index_files/logo.jpg" alt="your logo here" border="0" class="imagedropshadow" width="100" heigth="100"></a></div>
+	
+	<div class="social"></div>
+	<h2>Sistema de Gerenciamento de Laboratórios</h2> <nav>
+
+	<div class="navbutton"><a href="./reserva.html"> Reserva</a></div>
+
+	<div class="navbutton"><a href="./labs.html"> Laboratórios</a></div>
+	
+	<div class="navbutton"><a href="./registro.html"> Registro </a></div>
+	
+	<div class="navbutton"><a href="./solicitacoes.html"> Solicitações </a></div>
+
+	<div class="navbutton"><a href="inicial.html"> Home </a></div>
+	</nav> 
+<form action="respos.html" method="get">
+<fieldset>
+ <legend>Reservar</legend>
+ <table cellspacing="10">
+
+ <p>
+ 	Turno:
+	<input type="radio" name="turno" value="manha" > Manhã
+	<input type="radio" name="turno" value="tarde" > Tarde
+	<input type="radio" name="turno" value="noite" > Noite
+</p>
+
+	<p>
+		Horários que deseja :
+	<input type="radio" name="1" value="1" > 1º
+	<input type="radio" name="2" value="2" > 2º
+	<input type="radio" name="3" value="3" > 3º
+	<input type="radio" name="4" value="4" > 4º
+	<input type="radio" name="5" value="5" > 5º
+	<input type="radio" name="6" value="6" > 6º
+</p>
+<p>
+	Laboratório que deseja :
+	<input type="radio" name="lab01" value="lab01"> lab informática 01
+	<input type="radio" name="lab01" value="lab02" > lab informática 02
+	<input type="radio" name="lab01" value="lab03" > lab informática 03
+</p>
+<p>
+Justificativa para reservar o laboratório :
+<br>
+ <textarea name="nome" colspan="200" rowspan="29"></textarea>
+</p>
+	<br>
+	<br>
+  <input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+<a href="inicial.html" > <input type="button" value="voltar" name="voltar"> </a>
+
+</form>
+</body>
+</html>
